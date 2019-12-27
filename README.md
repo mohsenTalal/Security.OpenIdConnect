@@ -1,7 +1,7 @@
-AspNet.Security.OpenIdConnect.Server
+Security.OpenIdConnect.Server
 ==================================
 
-**AspNet.Security.OpenIdConnect.Server** is an **advanced OAuth2/OpenID Connect server framework** for both ASP.NET Core 1.x/2.x and OWIN/Katana 3.x/4.x, designed to offer a low-level, protocol-first approach.
+**Security.OpenIdConnect.Server** is an **advanced OAuth2/OpenID Connect server framework** for both ASP.NET Core 1.x/2.x and OWIN/Katana 3.x/4.x, designed to offer a low-level, protocol-first approach.
 
 **The latest official release can be found on [NuGet](https://www.nuget.org/packages/AspNet.Security.OpenIdConnect.Server) and the nightly builds on [MyGet](https://www.myget.org/gallery/aspnet-contrib)**.
 
@@ -124,20 +124,6 @@ public void Configure(IApplicationBuilder app)
 
 > Note: **the AspNet.Security.OpenIdConnect.Server 2.x packages are only compatible with ASP.NET Core 2.x**.
 > If your application targets ASP.NET Core 1.x, use the AspNet.Security.OpenIdConnect.Server 1.x packages.
-
-## Resources
-
-**Looking for additional resources to help you get started?** Don't miss these interesting blog posts:
-
-- **[Creating your own OpenID Connect server with ASOS](http://kevinchalet.com/2016/07/13/creating-your-own-openid-connect-server-with-asos-introduction/)** by [Kévin Chalet](https://github.com/PinpointTownes)
-
-## Samples
-
-The samples found [in the current project](./samples/) directory always target the latest ASP.NET Core releases and are mainly meant to ease its testing.
-
-**Official samples targetting ASP.NET Core** can be found on [aspnet-contrib/AspNet.Security.OpenIdConnect.Samples](https://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Samples). 
-
-**Looking for something simpler?** Don't miss **[OpenIddict](https://github.com/openiddict/core)**, the **simple and easy-to-use OpenID Connect server for ASP.NET Core 1.x and 2.0** based on AspNet.Security.OpenIdConnect.Server.
 
 ## Support
 
