@@ -1,0 +1,27 @@
+﻿@using Microsoft.Owin.Security
+@using Nancy.ViewEngines.Razor
+
+@inherits NancyRazorViewBase<string>
+
+<div class="jumbotron">
+    <h1>Authentication</h1>
+    <p class="lead text-left">Sign in using a specific username:</p>
+    
+    <form action="/signin" method="post">
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <label for="identifier">Username: </label>
+            <input class="form-control" type="text" id="identifier" name="Identifier" value="Bob le bricoleur" />
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password: </label>
+            <input class="form-control" type="password" id="password" name="Password" value="Bob le bricoleur" />
+        </div>
+
+        <input type="hidden" name="ReturnUrl" value="@Model" />
+
+        <button class="btn btn-lg btn-success" type="submit">Connect using your username</button>
+    </form>
+</div>

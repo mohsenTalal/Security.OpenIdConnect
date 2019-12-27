@@ -1,0 +1,20 @@
+<Project>
+
+  <Import Project="dependencies.props" />
+  <Import Project="version.props" />
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+
+  <Target Name="WorkaroundAppConfigPathTooLong" BeforeTargets="GenerateBindingRedirects">
+    <PropertyGroup>
+      <_GenerateBindingRedirectsIntermediateAppConfig>$(IntermediateOutputPath)$(TargetFileName).config</_GenerateBindingRedirectsIntermediateAppConfig>
+    </PropertyGroup>
+  </Target>
+
+</Project>

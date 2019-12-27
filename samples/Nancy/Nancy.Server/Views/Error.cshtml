@@ -1,0 +1,14 @@
+﻿@using AspNet.Security.OpenIdConnect.Primitives
+@using Nancy.ViewEngines.Razor
+
+@inherits NancyRazorViewBase<OpenIdConnectResponse>
+
+<div class="jumbotron">
+    <h1>An OpenID Connect error has occurred</h1>
+    <p class="lead text-left">
+        <strong>@Model.Error</strong>
+        @if (!string.IsNullOrEmpty(Model.ErrorDescription)) {
+            <small>@Model.ErrorDescription</small>
+        }
+    </p>
+</div>
