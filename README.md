@@ -149,6 +149,3 @@ The samples found [in the current project](./samples/) directory always target t
 
 **AspNet.Security.OpenIdConnect.Server** is actively maintained by **[Mohsen Talal](https://github.com/mohsenTalal)**. Contributions are welcome and can be submitted using pull requests.
 
-## License
-
-This project is licensed under the **Apache License**. This means that you can use, modify and distribute it freely. See [http://www.apache.org/licenses/LICENSE-2.0.html](http://www.apache.org/licenses/LICENSE-2.0.html) for more details.
