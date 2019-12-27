@@ -143,8 +143,7 @@ The samples found [in the current project](./samples/) directory always target t
 
 **Need help or wanna share your thoughts?** Don't hesitate to join us on Gitter or ask your question on StackOverflow:
 
-- **Gitter: [https://gitter.im/aspnet-contrib/AspNet.Security.OpenIdConnect.Server](https://gitter.im/aspnet-contrib/AspNet.Security.OpenIdConnect.Server)**
-- **StackOverflow: [https://stackoverflow.com/questions/tagged/aspnet-contrib](https://stackoverflow.com/questions/tagged/aspnet-contrib)**
+- **StackOverflow: [https://stackexchange.com/users/13936221/abdul-mohsen-al-enazi](https://stackexchange.com/users/13936221/abdul-mohsen-al-enazi)**
 
 ## Contributors
 
