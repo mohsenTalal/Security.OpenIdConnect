@@ -147,7 +147,7 @@ The samples found [in the current project](./samples/) directory always target t
 
 ## Contributors
 
-**AspNet.Security.OpenIdConnect.Server** is actively maintained by **[Kévin Chalet](https://github.com/PinpointTownes)**. Contributions are welcome and can be submitted using pull requests.
+**AspNet.Security.OpenIdConnect.Server** is actively maintained by **[Mohsen Talal](https://github.com/mohsenTalal)**. Contributions are welcome and can be submitted using pull requests.
 
 ## License
 
