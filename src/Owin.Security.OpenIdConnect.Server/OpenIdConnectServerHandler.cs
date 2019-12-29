@@ -1,6 +1,6 @@
 /*
  * Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
- * See https://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Server
+ * See https://github.com/aspnet-contrib/Security.OpenIdConnect.Server
  * for more information concerning the license and the contributors participating to this project.
  */
 
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using AspNet.Security.OpenIdConnect.Primitives;
+using Security.OpenIdConnect.Primitives;
 using Microsoft.Extensions.Logging;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Infrastructure;

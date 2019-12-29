@@ -1,0 +1,45 @@
+/*
+ * Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+ * See https://github.com/aspnet-contrib/Security.OpenIdConnect.Server
+ * for more information concerning the license and the contributors participating to this project.
+ */
+
+using Security.OpenIdConnect.Primitives;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
+
+namespace Security.OpenIdConnect.Server
+{
+    /// <summary>
+    /// Represents the context class associated with the
+    /// <see cref="OpenIdConnectServerProvider.HandleRevocationRequest"/> event.
+    /// </summary>
+    public class HandleRevocationRequestContext : BaseValidatingContext
+    {
+        /// <summary>
+        /// Creates a new instance of the <see cref="HandleRevocationRequestContext"/> class.
+        /// </summary>
+        public HandleRevocationRequestContext(
+            HttpContext context,
+            AuthenticationScheme scheme,
+            OpenIdConnectServerOptions options,
+            OpenIdConnectRequest request,
+            AuthenticationTicket ticket)
+            : base(context, scheme, options, request)
+        {
+            Ticket = ticket;
+            Validate();
+        }
+
+        /// <summary>
+        /// Gets the authentication ticket.
+        /// </summary>
+        public AuthenticationTicket Ticket { get; }
+
+        /// <summary>
+        /// Gets or sets a boolean indicating whether
+        /// the token was successfully revoked.
+        /// </summary>
+        public bool Revoked { get; set; }
+    }
+}

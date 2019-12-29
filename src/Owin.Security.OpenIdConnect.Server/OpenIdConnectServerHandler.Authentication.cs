@@ -1,6 +1,6 @@
 /*
  * Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
- * See https://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Server
+ * See https://github.com/aspnet-contrib/Security.OpenIdConnect.Server
  * for more information concerning the license and the contributors participating to this project.
  */
 
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using AspNet.Security.OpenIdConnect.Primitives;
+using Security.OpenIdConnect.Primitives;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Owin.Infrastructure;
@@ -133,7 +133,7 @@ namespace Owin.Security.OpenIdConnect.Server
             // While redirect_uri was not mandatory in OAuth2, this parameter
             // is now declared as REQUIRED and MUST cause an error when missing.
             // See http://openid.net/specs/openid-connect-core-1_0.html#AuthRequest
-            // To keep AspNet.Security.OpenIdConnect.Server compatible with pure OAuth2 clients,
+            // To keep Security.OpenIdConnect.Server compatible with pure OAuth2 clients,
             // an error is only returned if the request was made by an OpenID Connect client.
             if (string.IsNullOrEmpty(request.RedirectUri) && request.HasScope(OpenIdConnectConstants.Scopes.OpenId))
             {

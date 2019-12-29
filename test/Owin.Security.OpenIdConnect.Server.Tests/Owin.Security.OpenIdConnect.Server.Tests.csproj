@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\AspNet.Security.OpenIdConnect.Client\AspNet.Security.OpenIdConnect.Client.csproj" />
+    <ProjectReference Include="..\..\src\Security.OpenIdConnect.Client\Security.OpenIdConnect.Client.csproj" />
     <ProjectReference Include="..\..\src\Owin.Security.OpenIdConnect.Server\Owin.Security.OpenIdConnect.Server.csproj" />
   </ItemGroup>
 

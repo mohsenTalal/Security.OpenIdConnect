@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\AspNet.Security.OpenIdConnect.Server\AspNet.Security.OpenIdConnect.Server.csproj" />
+    <ProjectReference Include="..\..\..\src\Security.OpenIdConnect.Server\Security.OpenIdConnect.Server.csproj" />
   </ItemGroup>
 
   <ItemGroup>

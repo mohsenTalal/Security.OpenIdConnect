@@ -1,6 +1,6 @@
 ﻿/*
  * Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
- * See https://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Server
+ * See https://github.com/aspnet-contrib/Security.OpenIdConnect.Server
  * for more information concerning the license and the contributors participating to this project.
  */
 
@@ -10,7 +10,7 @@ using System.IO;
 using System.Reflection;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
-using AspNet.Security.OpenIdConnect.Primitives;
+using Security.OpenIdConnect.Primitives;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Owin;
 using Microsoft.Owin.Builder;
@@ -215,7 +215,7 @@ namespace Owin.Security.OpenIdConnect.Server.Tests
             // Arrange
             var credentials = new List<SigningCredentials>();
             var assembly = typeof(OpenIdConnectServerHandlerTests).GetTypeInfo().Assembly;
-            var resource = "AspNet.Security.OpenIdConnect.Server.Tests.Certificate.cer";
+            var resource = "Security.OpenIdConnect.Server.Tests.Certificate.cer";
 
             // Act and assert
             var exception = Assert.Throws<ArgumentException>(delegate

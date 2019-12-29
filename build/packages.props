@@ -14,10 +14,10 @@
   <PropertyGroup>
     <Product>aspnet-contrib</Product>
     <PackageIconUrl>https://avatars3.githubusercontent.com/u/7998081?s=64</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Server</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/aspnet-contrib/Security.OpenIdConnect.Server</PackageProjectUrl>
     <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>git://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Server</RepositoryUrl>
+    <RepositoryUrl>git://github.com/aspnet-contrib/Security.OpenIdConnect.Server</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

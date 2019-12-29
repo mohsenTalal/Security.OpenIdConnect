@@ -2,7 +2,7 @@
 using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
-using AspNet.Security.OpenIdConnect.Primitives;
+using Security.OpenIdConnect.Primitives;
 using Nancy.Server.Models;
 using Owin.Security.OpenIdConnect.Server;
 

@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AspNet.Security.OpenIdConnect.Primitives\AspNet.Security.OpenIdConnect.Primitives.csproj" />
+    <ProjectReference Include="..\Security.OpenIdConnect.Primitives\Security.OpenIdConnect.Primitives.csproj" />
   </ItemGroup>
 
   <ItemGroup>

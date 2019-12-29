@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using AspNet.Security.OpenIdConnect.Primitives;
-using AspNet.Security.OpenIdConnect.Server;
+using Security.OpenIdConnect.Primitives;
+using Security.OpenIdConnect.Server;
 using Microsoft.EntityFrameworkCore;
 using Mvc.Server.Models;
 

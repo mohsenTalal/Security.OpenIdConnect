@@ -35,8 +35,8 @@ namespace Mvc.Client
 
                 // Note: these settings must match the application details
                 // inserted in the database at the server level.
-                options.ClientId = "paymentGateway";
-                options.ClientSecret = "d60606f1-dbaa-40a4-b032-76229c0dfbe7";
+                options.ClientId = "ClientId";
+                options.ClientSecret = "ClientSecret";
 
                 // Use the authorization code flow.
                 options.ResponseType = OpenIdConnectResponseType.Code;
@@ -44,7 +44,7 @@ namespace Mvc.Client
                 // Note: setting the Authority allows the OIDC client middleware to automatically
                 // retrieve the identity provider's configuration and spare you from setting
                 // the different endpoints URIs or the token validation parameters explicitly.
-                options.Authority = "https://iam.test.thiqah.sa:4433/auth/realms/thiqah/";
+                options.Authority = "https://keykloak/";
 
                 options.SecurityTokenValidator = new JwtSecurityTokenHandler
                 {
