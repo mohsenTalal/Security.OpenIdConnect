@@ -16,6 +16,7 @@ env:
     - DOTNET_CLI_TELEMETRY_OPTOUT: 1
 mono: none
 os:
+  - Windows
   - linux
   - osx
 osx_image: xcode8.2
