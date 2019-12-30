@@ -8,8 +8,6 @@ Security.OpenIdConnect.Server
 [![Build status](https://ci.appveyor.com/api/projects/status/tyenw4ffs00j4sav/branch/dev?svg=true)](https://ci.appveyor.com/project/mohsenTalal/security-openidconnect/branch/master)
 [![Build status](https://api.travis-ci.org/mohsenTalal/Security.OpenIdConnect.svg?branch=master)](https://travis-ci.org/mohsenTalal/Security.OpenIdConnect)
 
-> **As part of the ASP.NET Core 3.0 migration, this project has been merged into OpenIddict. For more information, read the [OpenIddict 3.0 roadmap](https://github.com/openiddict/openiddict-core/issues/736)**.
-
 ## Get started
 
 Based on `OAuthAuthorizationServerMiddleware` from **Mohsen**, **Security.OpenIdConnect.Server** exposes similar primitives and can be directly registered in **Startup.cs** using the `UseOpenIdConnectServer` extension method:
