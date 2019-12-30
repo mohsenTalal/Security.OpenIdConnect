@@ -6,7 +6,7 @@ Security.OpenIdConnect.Server
 **The latest official release can be found on [NuGet](https://www.nuget.org/packages/AspNet.Security.OpenIdConnect.Server) and the nightly builds on [MyGet](https://www.myget.org/gallery/aspnet-contrib)**.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/tyenw4ffs00j4sav/branch/dev?svg=true)](https://ci.appveyor.com/project/mohsenTalal/security-openidconnect/branch/master)
-[![Build status](https://travis-ci.org/aspnet-contrib/AspNet.Security.OpenIdConnect.Server.svg?branch=dev)](https://travis-ci.org/aspnet-contrib/AspNet.Security.OpenIdConnect.Server)
+[![Build status](https://api.travis-ci.org/mohsenTalal/Security.OpenIdConnect.svg?branch=master)](https://travis-ci.org/mohsenTalal/Security.OpenIdConnect)
 
 > **As part of the ASP.NET Core 3.0 migration, this project has been merged into OpenIddict. For more information, read the [OpenIddict 3.0 roadmap](https://github.com/openiddict/openiddict-core/issues/736)**.
 
